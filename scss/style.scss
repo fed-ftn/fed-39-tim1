@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    
+
+    thead {
+        border-top: 1px solid blue;
+    }
+
+    tr {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid blue;
+        font-size: 20px;
+    }
+
+    th,td {
+        padding: 10px;
+    }
+}
+
+thead>tr, tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(201, 201, 241);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        display: inline-block;
+        width: 40%;
+        margin: 10px 30px;
+
+    }
+}
+
+#buttons {
+    margin-left: auto;
+}
